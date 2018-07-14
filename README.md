@@ -1,2 +1,2 @@
 # flipdot8266
-Hannover flipdot display for the ESP8266
+Hanover flipdot display for the ESP8266
