@@ -1,6 +1,39 @@
 {
     "terminal.integrated.env.windows": {
-        "PATH": "C:\\Users\\opeRaptor\\.platformio\\penv\\Scripts;C:\\Users\\opeRaptor\\.platformio\\penv;C:\\Program Files (x86)\\Google\\Chrome\\Application;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Skype\\Phone\\;%PYTHON3_SCRIPTS%;C:\\Users\\opeRaptor\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files (x86)\\Google\\Chrome\\Application;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Skype\\Phone\\;%PYTHON3_SCRIPTS%;C:\\Users\\opeRaptor\\AppData\\Local\\Microsoft\\WindowsApps;",
+        "PATH": "C:\\Users\\opeRaptor\\.platformio\\penv\\Scripts;C:\\Users\\opeRaptor\\.platformio\\penv;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Skype\\Phone\\;%PYTHON3_SCRIPTS%;;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\opeRaptor\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Skype\\Phone\\;%PYTHON3_SCRIPTS%;;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\opeRaptor\\AppData\\Local\\Microsoft\\WindowsApps;",
         "PLATFORMIO_CALLER": "vscode"
+    },
+    "files.associations": {
+        "array": "cpp",
+        "*.tcc": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cmath": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "exception": "cpp",
+        "fstream": "cpp",
+        "functional": "cpp",
+        "initializer_list": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "new": "cpp",
+        "ostream": "cpp",
+        "numeric": "cpp",
+        "sstream": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "type_traits": "cpp",
+        "tuple": "cpp",
+        "typeinfo": "cpp",
+        "utility": "cpp"
     }
 }
