@@ -22,7 +22,7 @@ while True:
         fnt = ImageFont.truetype('5x7.ttf')
 
 
-        d.text((0,-1), datetime.now().strftime('%H'), fill=(0,0,0,255))
+        d.text((0,-2), datetime.now().strftime('%H'), fill=(0,0,0,255))
         d.text((9,5), datetime.now().strftime('%M'), fill=(0,0,0,255))
         
         #d.text((0,-1), datetime.now().strftime('%H'), font=fnt, fill=(0,0,0,255))
@@ -59,13 +59,15 @@ while True:
         x = 0
         for x in range(width):
             out = 0
-            y = height
-            while y > 0:
-                bit = pixel_values[y-1,x]
+            y = height-1
+            
+            while y >= 0:
+                bit = pixel_values[y,x]
                 out = (out << 1) | bit
                 y -= 1
             #for bit in pixel_values[:,x]:
             #    out = (out << 1) | bit
+            out = out << 1
             print(out)
             url = url + str(out)
             url = url +"&="
