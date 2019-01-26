@@ -1,0 +1,10 @@
+{
+    "terminal.integrated.env.osx": {
+        "PATH": "/Users/operaptor/.platformio/penv/bin:/Users/operaptor/.platformio/penv:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin",
+        "PLATFORMIO_CALLER": "vscode"
+    },
+    "files.associations": {
+        "array": "cpp"
+    },
+    "python.pythonPath": "/usr/local/bin/python3"
+}
